@@ -89,10 +89,11 @@ abbr[title], abbr[data-original-title] {
 
 .navbar {
     background: #fff;
-    border:none;
-    margin:0;
+    border: none;
+    margin: 0;
+}
 a.navbar-brand{
     display: block;
     padding: 8px 0;
 }
-}
+
