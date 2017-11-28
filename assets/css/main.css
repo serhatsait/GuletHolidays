@@ -1,0 +1,98 @@
+body, html{
+    font-family: Myriad Pro, sans-serif;
+    font-size: 13px;
+}
+abbr{
+    text-decoration: none;
+}
+.headerup{
+    height: 56px;
+    border-bottom: 1px solid #dedede;
+}
+
+.container{
+    width: 970px;
+}
+
+.head-up{
+    text-align: right;
+}
+
+.call-us{
+    font-family: Gotham Book, sans-serif;
+    font-weight: bold;
+    color: #7f7f7f;
+    line-height: 56px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+.call-us>a{
+    color: #7f7f7f;
+    margin-left: 5px;
+}
+
+.search{
+    width: 222px;
+    color: #7f7f7f;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.stylish-input-group .input-group-addon {
+    background: white !important;
+}
+
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
+}
+
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
+}
+
+abbr[data-original-title], abbr[title] {
+    border: none !important;
+}
+
+abbr[title], abbr[data-original-title] {
+    border: none !important;
+}
+
+.form-control {
+    border-radius: 17px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.input-group-addon {
+    border-radius: 17px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ccc !important;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: $nav-font-color;
+    font-weight: 600;
+    font-size: smaller;
+    padding: 28px 15px;
+}
+
+.navbar {
+    background: #fff;
+    border:none;
+    margin:0;
+a.navbar-brand{
+    display: block;
+    padding: 8px 0;
+}
+}
