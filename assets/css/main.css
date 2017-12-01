@@ -42,3 +42,14 @@ button{
     border: 0;
     background: transparent;
 }
+
+.navbar-right{
+    float: right !important;
+    margin-right: -15px;
+}
+.navbar-default .navbar-nav{
+    color: #e38b7a;
+    font-weight: 600;
+    font-size: smaller;
+    padding: 28px 15px;
+}
