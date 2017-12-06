@@ -47,9 +47,65 @@ button{
     float: right !important;
     margin-right: -15px;
 }
-.navbar-default .navbar-nav{
+.navbar-default .navbar-nav > li > a
+{
     color: #e38b7a;
     font-weight: 600;
     font-size: smaller;
     padding: 28px 15px;
+}
+.navbar-nav > li {
+    float: left;
+    margin-top: 10px;
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+.navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+}
+.navbar-brand > image {
+    display: block;
+}
+.navbar-brand{
+    float: left;
+}
+.resim1{
+    width: 1366px;
+    height: 465px;
+    background: white url("image/slider.jpg") no-repeat 50% 90%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.container-fluid{
+    background-color: #ffffff;
+    display: inline-block;
+}
+.slider-middle{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+.text-slider-middle{
+    color: #fff;
+    font-size: 37.53px;
+    font-weight: bold;
+    text-shadow: 0 0 30px #000;
+    font-family: Gotham,sans-serif;
+}
+a:hover {
+    background-color: #ea5d3c;
+    border-color: transparent;
+}
+abbr{
+    text-decoration: none;
 }
