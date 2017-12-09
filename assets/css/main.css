@@ -74,7 +74,7 @@ button{
 .resim1{
     width: 1366px;
     height: 465px;
-    background: white url("image/slider.jpg") no-repeat 50% 90%;
+    background: white no-repeat 50% 90%;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -89,12 +89,17 @@ button{
     left: 0;
     right: 0;
     text-align: center;
-    top: 50px;
     bottom: 0;
+    top: 50px;
     width: 100%;
     height: 150px;
     margin: auto;
 }
+    a:hover{
+        background-color: #ea5d3c;
+        border-color: transparent;
+    }
+
 .text-slider-middle{
     color: #fff;
     font-size: 37.53px;
@@ -102,10 +107,60 @@ button{
     text-shadow: 0 0 30px #000;
     font-family: Gotham,sans-serif;
 }
-a:hover {
-    background-color: #ea5d3c;
-    border-color: transparent;
-}
 abbr{
     text-decoration: none;
 }
+.slider-bottom{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.slider-bottom > .btn-view{
+    background-color: #e38b7a;
+    text-overline-color: #e38b7a;
+    color: white;
+}
+.head-middle{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 100px;
+}
+.head-middle-2{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 135px;
+}
+.text-header-middle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20pt;
+    padding-bottom: inherit;
+}
+.text-header-middle-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    padding-bottom: inherit;
+}
+
+.Layer_16 {
+    background-image: url("Layer 16.png");
+    position: absolute;
+    left: 60px;
+    top: 777px;
+    width: 290px;
+    height: 143px;
+    z-index: 65;
+}
+
+

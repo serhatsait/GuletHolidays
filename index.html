@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 </head>
 <body>
@@ -31,8 +36,8 @@
         </div>
     </div>
     <div class="headerdown">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-static-top">
                 <div class="navbar-header">
                     <div class="collapse navbar-collapse navbar-right">
                         <a class="nav navbar-brand" href="index.html">
@@ -69,22 +74,190 @@
                         </ul>
                     </div>
                 </div><!-- /.navbar-aç/kapa -->
-            </div><!-- /.container-fluid -->
-        </nav>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
     </div>
 </header>
-<div class="slider-up">
-    <div class="slider" id="sliderimg">
-        <a class="resim1"><img src="image/slider.jpg"/></a>
+<div class="container">
+    <div class="slider-up">
+        <div class="slider" id="sliderimg">
+            <a class="resim1"><img src="image/slider.jpg"/></a>
+        </div>
+    </div>
+    <div class="slider-middle">
+        <span class="text-slider-middle">Gulet Course and Stay!</span>
+    </div>
+    <div class="slider-bottom">
+        <a href="#" class="btn btn-view" title="VIEW TOURS">VIEW TOURS</a>
     </div>
 </div>
-<div class="slider-middle">
-    <span class="text-slider-middle">Gulet Course and Stay!</span>
-    <a href="#" title="VIEW TOURS">VIEW TOURS</a>
+<div class="container">
+    <div class="SearchBox">
+        <div class="col-md-3 col-sm-3 what">
+            <div class="what-up">
+                <label>WHAT?</label>
+            </div>
+            <div class="what-down">
+                <label class="gj-checkbox-bootstrap gj-checkbox-glyphicons" for="checkbox1">
+                    <input type="checkbox" id="checkbox1" data-type="checkbox"
+                           data-guid="e4c701fa-6972-7e37-609a-f2ab35510447" data-checkbox="true"><span>Gulet</span>
+                </label>
+                <label class="gj-checkbox-bootstrap gj-checkbox-glyphicons" for="checkbox2">
+                    <input type="checkbox" id="checkbox2" data-type="checkbox"
+                           data-guid="e4c701fa-6972-7e37-609a-f2ab35510447"
+                           data-checkbox="true"><span>Motor Yatch</span>
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 where">
+            <div class="where-wrapper">
+                <div class="where-up">
+                    <label for="">WHERE?</label>
+                </div>
+                <div class="where-center">
+                    <small>Embarkation point</small>
+                </div>
+                <div class="where-down">
+                    <select name="select-location" id="">
+                        <option selected="">SELECT LOCATION</option>
+                        <option value="">BAYRAMPAŞA</option>
+                        <option value="">ESENLER</option>
+                        <option value="">SEFAKÖY</option>
+                        <option value="">BAKIRKÖY</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 when">
+            <label>WHEN?</label>
+            <div class="when-from">
+                <div class="when-datepickers">
+                    <small>FROM</small>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <div class="from-datepicker-wrapper">
+                        <a href="javascript:void(0)" class="from-day day from">21</a>
+                        <input id="datepicker1" class="when-datepicker" type="text">
+                        <span>/</span>
+                        <a href="javascript:void(0)" class="from-day month from">July</a>
+                    </div>
+                </div>
+                <div class="when-datepickers">
+                    <small>TO</small>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <div class="from-datepicker-wrapper">
+                        <a href="javascript:void(0)" class="from-day day to">28</a>
+                        <input id="datepicker2" class="when-datepicker" type="text">
+                        <span>/</span>
+                        <a href="javascript:void(0)" class="from-day to month">July</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 col-sm-1 who">
+            <label>WHO?</label>
+            <div class="quest">
+                <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">12</option>
+                </select>
+                <span>Guest</span>
+            </div>
+        </div>
+        <div class="col-md-1 col-sm-1 search-filtre">
+            <a href="" type="button" title="Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <span>SEARCH</span></a>
+        </div>
+    </div>
 </div>
+<div class="container">
+    <h2 class="text-header-middle">Take a look at Our</h2>
+    <h2 class="text-header-middle-2">Best Tours</h2>
+    <div class="row">
+        <div class="col-md-12 heroSlider-fixed">
+            <div class="overlay">
+            </div>
+            <!-- Slider -->
+            <div class="slider responsive">
+                <div>
+                    <img src="sliderimage/Layer 16.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy 2.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy 3.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy 3.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16 copy 2.jpg" height="143" width="290"/></div>
+                <div>
+                    <img src="sliderimage/Layer 16.jpg" height="143" width="290"/></div>
+            </div>
+            <!-- control arrows -->
+            <div class="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </div>
+            <div class="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </div>
 
+        </div>
+    </div>
+</div>
 
 <script src="assets/lib/jquery/dist/jquery.js"></script>
 <script src="assets/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js'></script>
+<script src="assets/js/index.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.responsive').slick({
+            dots: true,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    });
+</script>
 </body>
 </html>
